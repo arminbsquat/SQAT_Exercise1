@@ -35,7 +35,11 @@ public class BowlingGame {
 		// update game scores; 
 		for(int i = 0; i < frames.size(); i++) {
 			if(frames.get(i).isStrike() && i+1 < frames.size() && frames.size() != 10) {
-				this.handleStrikes();
+				
+			}
+			
+			if(frames.get(i).isStrike() && i+1 < frames.size() && frames.size() != 10) {
+				
 			}
 			
 			if(frames.get(i).isSpare() && i+1 < frames.size() && frames.size() != 10) {
