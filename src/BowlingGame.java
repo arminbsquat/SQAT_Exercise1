@@ -82,9 +82,6 @@ public class BowlingGame {
 				i++;
 			}
 			
-			if(frames.get(i).isStrike()) {
-				
-			}
 			
 		}
 		
