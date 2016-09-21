@@ -3,6 +3,7 @@ public class Frame {
 	private int secondThrow;
 	public static int globalIndex = 0;
 	public int index;
+	public int score = 0;
 
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
@@ -23,9 +24,8 @@ public class Frame {
 
 	//returns the score of a single frame
 	public int score(){
-		int score = 0;
 		if(this.isStrike()) {
-			score = 10;
+			this.score = 10;
 		} else {
 			score = this.firstThrow+this.secondThrow;
 		}
