@@ -31,7 +31,6 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		int gameScore = 0;
-		this.handleStrikes();
 		
 		// update game scores; 
 		for(int i = 0; i < frames.size(); i++) {
@@ -45,8 +44,6 @@ public class BowlingGame {
 					frames.get(i).updateScore(frames.get(i+1).getSecondThrow());
 				}
 			}
-			
-			
 			
 			if(frames.get(i).isSpare() && i+1 < frames.size() && frames.size() != 10) {
 				//called while game is not finished
