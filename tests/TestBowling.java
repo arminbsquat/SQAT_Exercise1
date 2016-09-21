@@ -8,5 +8,10 @@ public class TestBowling {
 	public void test() {
 		fail("Not yet implemented");
 	}
+	
+	
+	public void testNoStrikesNoSpares() {
+		
+	}
 
 }

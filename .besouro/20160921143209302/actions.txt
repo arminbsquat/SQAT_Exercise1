@@ -310,3 +310,12 @@ EditAction 1474463162968 BowlingGame.java 2453 5 10 0
 EditAction 1474463180144 BowlingGame.java 2458 5 10 0
 EditAction 1474463210689 BowlingGame.java 2491 5 10 0
 EditAction 1474463253784 BowlingGame.java 2512 5 11 0
+CompilationAction 1474463255640 BowlingGame.java
+CompilationAction 1474463266148 BowlingGame.java
+FileOpenedAction 1474463352008 TestBowling.java 165 1 1 0
+RefactoringAction 1474463360018 TestBowling.java ADD void test FIELD
+RefactoringAction 1474463374528 TestBowling.java RENAME test=>void testRegualr FIELD
+RefactoringAction 1474463375538 TestBowling.java RENAME testRegualr=>void testRegu FIELD
+RefactoringAction 1474463379038 TestBowling.java RENAME testRegu=>void testNoStrikesNo FIELD
+RefactoringAction 1474463381048 TestBowling.java RENAME testNoStrikesNo=>void testNoStrikesNoSpares() METHOD
+EditAction 1474463383418 TestBowling.java 219 2 1 0
