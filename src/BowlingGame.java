@@ -17,9 +17,7 @@ public class BowlingGame {
 		if(this.frames.size() > 10) {
 			throw new BowlingException();
 		} else {
-			frame.myFrameNumber = Frame.frameCounter;
 			this.frames.add(frame);
-			Frame.frameCounter++;
 		}
 	}
 	

@@ -103,3 +103,6 @@ EditAction 1474459748903 Frame.java 907 6 9 0
 CompilationAction 1474459750838 BowlingGame.java
 RefactoringAction 1474459752413 Frame.java RENAME myFrameID=>int myFrame FIELD
 EditAction 1474459753162 Frame.java 911 6 9 0
+RefactoringAction 1474459769917 Frame.java REMOVE frameCounter FIELD
+RefactoringAction 1474459769917 Frame.java REMOVE myFrameNumber FIELD
+EditAction 1474459776313 BowlingGame.java 876 4 4 0
