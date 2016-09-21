@@ -55,6 +55,10 @@ public class BowlingGame {
 		return gameScore;
 	}
 	
+	public void handleStrikes() {
+		
+	}
+	
 	
 	
 }

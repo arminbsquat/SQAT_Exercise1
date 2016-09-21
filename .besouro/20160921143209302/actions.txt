@@ -232,3 +232,6 @@ EditAction 1474461526336 BowlingGame.java 1421 4 5 0
 EditAction 1474461545899 BowlingGame.java 1421 4 5 0
 EditAction 1474461592153 BowlingGame.java 1421 4 5 0
 EditAction 1474461609781 BowlingGame.java 1371 4 5 0
+RefactoringAction 1474461618096 BowlingGame.java ADD void handle FIELD
+RefactoringAction 1474461621716 BowlingGame.java RENAME handle=>void handleStrikes FIELD
+EditAction 1474461623712 BowlingGame.java 1414 5 5 0
