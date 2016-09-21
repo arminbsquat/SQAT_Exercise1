@@ -337,3 +337,6 @@ UnitTestSessionAction 1474463515395 TestBowling.java FAIL
 EditAction 1474463520135 TestBowling.java 738 2 15 1
 RefactoringAction 1474463594929 Application.java REMOVE Application.java CLASS
 EditAction 1474463611933 TestBowling.java 780 2 16 1
+UnitTestCaseAction 1474463634259 TestBowling.java FAIL
+UnitTestSessionAction 1474463634259 TestBowling.java FAIL
+EditAction 1474463650905 BowlingGame.java 2460 5 10 0

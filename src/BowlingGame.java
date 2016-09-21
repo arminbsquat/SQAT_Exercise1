@@ -65,7 +65,7 @@ public class BowlingGame {
 		}
 		
 		for(Frame frame : this.frames) {
-			gameScore = gameScore + frame.score;
+			gameScore = gameScore + frame.score();
 		}
 		
 		return gameScore;
