@@ -69,7 +69,13 @@ public class TestBowling {
 		assertEquals(game.score(), 91);
 	}
 	
-	
+	@Test
+	public void testTwoStrike() throws BowlingException {
+		
+		
+		
+		
+	}
 	
 	@Test
 	public void test() {

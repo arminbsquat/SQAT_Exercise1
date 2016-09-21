@@ -407,3 +407,5 @@ EditAction 1474464536640 TestBowling.java 1837 4 43 3
 UnitTestCaseAction 1474464539654 TestBowling.java FAIL
 UnitTestSessionAction 1474464539654 TestBowling.java FAIL
 EditAction 1474464756859 TestBowling.java 1843 4 43 3
+RefactoringAction 1474464790368 TestBowling.java ADD void testTwoStrike() METHOD
+EditAction 1474464800228 TestBowling.java 1924 5 43 3
