@@ -96,3 +96,7 @@ CompilationAction 1474459664757 BowlingGame.java
 EditAction 1474459675178 BowlingGame.java 948 4 4 0
 RefactoringAction 1474459703117 BowlingGame.java ADD int FIELD
 EditAction 1474459708983 BowlingGame.java 975 4 4 0
+CompilationAction 1474459710808 BowlingGame.java
+CompilationAction 1474459713741 BowlingGame.java
+CompilationAction 1474459713897 BowlingGame.java
+EditAction 1474459748903 Frame.java 907 6 9 0
