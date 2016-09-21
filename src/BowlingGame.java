@@ -73,17 +73,14 @@ public class BowlingGame {
 	
 	public void handleStrikes() {
 		int strikeRow = 0;
-		
-		for(int i = 0; i < frames.size(); i++) {
-			
+		int i = 0; 
 			while(frames.get(i).isStrike()) {
 				
 				
 				i++;
 			}
 			
-			
-		}
+		
 		
 
 		
