@@ -29,7 +29,6 @@ public class Frame {
 			score = this.firstThrow+this.secondThrow;
 		}
 		
-		
 		this.myScore = score;
 		return this.myScore;
 	}
