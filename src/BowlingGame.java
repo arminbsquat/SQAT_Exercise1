@@ -43,7 +43,7 @@ public class BowlingGame {
 			}
 			
 			if(frames.get(i).isSpare() && i+1 < frames.size() && frames.size() != 10) {
-				
+				//called while game is not finished
 			}
 			
 			if(frames.get(i).isSpare() && i+1 < frames.size() && frames.size() == 10) {
