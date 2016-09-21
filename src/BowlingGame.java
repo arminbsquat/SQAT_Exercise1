@@ -75,7 +75,9 @@ public class BowlingGame {
 		int strikeRow = 0;
 		
 		for(Frame frame : frames) {
-			
+			if(frame.isStrike()) {
+				
+			}
 		}
 		
 
