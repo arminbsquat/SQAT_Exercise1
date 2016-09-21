@@ -31,7 +31,7 @@ public class Frame {
 		
 		
 		this.myScore = score;
-		return score;
+		return this.myScore;
 	}
 
 	//returns whether the frame is a strike or not
