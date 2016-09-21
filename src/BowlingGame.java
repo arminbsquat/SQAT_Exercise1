@@ -80,6 +80,8 @@ public class BowlingGame {
 			}
 			else if(strikeRow != 0) {
 				
+			} else {
+				
 			}
 		}
 		
