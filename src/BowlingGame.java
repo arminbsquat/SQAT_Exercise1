@@ -33,6 +33,8 @@ public class BowlingGame {
 			
 			if(frame.isStrike()) {
 				
+			} else {
+				
 			}
 			
 			
