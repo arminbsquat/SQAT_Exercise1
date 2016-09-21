@@ -47,6 +47,7 @@ public class BowlingGame {
 			}
 			
 			if(frames.get(i).isSpare() && i+1 < frames.size() && frames.size() == 10) {
+				//called after the end of the game
 				frames.get(i).updateScore(frames.get(i+1).getFirstThrow());
 			}
 			
