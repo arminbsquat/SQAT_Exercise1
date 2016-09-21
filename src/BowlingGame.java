@@ -35,7 +35,8 @@ public class BowlingGame {
 		
 		// update game scores; 
 		for(int i = 0; i < frames.size(); i++) {
-			
+		
+			// strike 
 			if(frames.get(i).isStrike() && i+2 < frames.size() && frames.size() != 10) {
 				frames.get(i).updateScore(frames.get(i+1).getFirstThrow());
 				if(frames.get(i+1).isStrike()) {
@@ -82,12 +83,7 @@ public class BowlingGame {
 		return gameScore;
 	}
 	
-	public int handleStrikes() {
-
 		
-	}
-		
-	}
 	
 	
 	
