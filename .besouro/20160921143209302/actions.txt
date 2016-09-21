@@ -126,3 +126,6 @@ EditAction 1474459996355 BowlingGame.java 891 4 4 0
 RefactoringAction 1474460005970 Frame.java REMOVE globalFrameNumber FIELD
 RefactoringAction 1474460005972 Frame.java REMOVE frameNumber FIELD
 EditAction 1474460043188 Frame.java 848 6 9 0
+RefactoringAction 1474460051525 Frame.java ADD int frameNumber FIELD
+RefactoringAction 1474460051528 Frame.java ADD int globalFrameNumber FIELD
+EditAction 1474460052138 Frame.java 963 6 9 0
