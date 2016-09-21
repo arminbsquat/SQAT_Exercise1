@@ -29,8 +29,9 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		int gameScore = 0;
-		gameScore = gameScore + frame.score();	
-		
+		for(Frame frame : this.frames) {
+			gameScore = gameScore + frame.score();
+		}
 		return gameScore;
 	}
 	
