@@ -27,12 +27,12 @@ public class TestBowling {
 		assertEquals(game.score(), 81);
 	}
 	
-	public void testOneSpare() {
+	public void testOneSpare() throws BowlingException {
 		BowlingGame game = new BowlingGame();
 		Frame[] frame = new Frame[10];
 		frame[0] = new Frame(1,5);
 		frame[1] = new Frame(3,6);
-		frame[2] = new Frame(7,2);
+		frame[2] = new Frame(7,3);
 		frame[3] = new Frame(3,6);
 		frame[4] = new Frame(4,4);
 		frame[5] = new Frame(5,3);

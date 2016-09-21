@@ -348,3 +348,6 @@ UnitTestCaseAction 1474463686607 TestBowling.java FAIL
 UnitTestSessionAction 1474463686607 TestBowling.java FAIL
 RefactoringAction 1474463705171 TestBowling.java ADD void testOneSpare() METHOD
 EditAction 1474463718790 TestBowling.java 1248 3 29 2
+CompilationAction 1474463720553 TestBowling.java
+CompilationAction 1474463725327 TestBowling.java
+EditAction 1474463729866 TestBowling.java 1272 3 29 2
