@@ -45,6 +45,7 @@ public class BowlingGame {
 			
 			if(frames.get(i).isSpare() && i+1 < frames.size() && frames.size() != 10) {
 				//called while game is not finished
+				// update game score, since next throw is known
 			}
 			
 			if(frames.get(i).isSpare() && i+1 < frames.size() && frames.size() == 10) {
