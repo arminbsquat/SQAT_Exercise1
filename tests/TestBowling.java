@@ -24,7 +24,7 @@ public class TestBowling {
 		for( int i = 0; i < 10; i++) {
 			game.addFrame(frame[i]);
 		}
-		
+		System.out.print("score " + game.score());
 		assertEquals(game.score(), 81);
 	}
 	
