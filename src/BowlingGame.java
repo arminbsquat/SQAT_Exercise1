@@ -32,6 +32,8 @@ public class BowlingGame {
 		for(Frame frame : this.frames) {
 				this.gameScore = this.gameScore + frame.score();	
 		}
-		return gameScore;
+		
+		int localGameScore = this.gameScore;
+		return localGameScore;
 	}
 }
