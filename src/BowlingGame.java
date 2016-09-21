@@ -36,6 +36,9 @@ public class BowlingGame {
 			gameScore = gameScore + frame.score();
 		}
 		
+		for(Frame frame : this.frames) {
+			
+		}
 		
 		return gameScore;
 	}
