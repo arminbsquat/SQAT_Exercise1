@@ -72,25 +72,7 @@ public class BowlingGame {
 	}
 	
 	public int handleStrikes() {
-		int score = 0; 
-		int i = 0; 
-		
-		
-			
-			while(frames.get(i).isStrike()) {
-				score = score + 10;
-				i++;
-				if(i >= frames.size()) {
-					// reset, score cannot be calculated yet, because future values are missing
-					score = 0;
-				} else {
-					score = frames.get(i).score;
-				}
-			}
-			
-			return score;
-			
-		
+
 		
 
 		
