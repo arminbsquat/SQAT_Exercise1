@@ -52,11 +52,11 @@ public class BowlingGame {
 			}
 			
 			if(frames.get(i).isStrike() && i+1 == frames.size() && frames.size() == 10) { // last frame a strike
-				
+				//called after the end of the game
 			}
 			
 			if(frames.get(i).isSpare() && i+1 == frames.size() && frames.size() == 10) { // last frame a spare
-				
+				//called after the end of the game
 			}
 		}
 		
