@@ -237,3 +237,4 @@ RefactoringAction 1474461621716 BowlingGame.java RENAME handle=>void handleStrik
 EditAction 1474461623712 BowlingGame.java 1414 5 5 0
 EditAction 1474461631388 BowlingGame.java 1414 5 5 0
 EditAction 1474461641590 BowlingGame.java 1415 5 5 0
+EditAction 1474461683679 BowlingGame.java 1436 5 5 0
