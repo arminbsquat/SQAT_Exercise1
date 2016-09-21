@@ -23,3 +23,4 @@ RefactoringAction 1474458290351 Game.java REMOVE Game.java CLASS
 RefactoringAction 1474458303533 Application.java ADD Application.java CLASS
 FileOpenedAction 1474458303673 Application.java 35 0 0 0
 EditAction 1474458312565 Application.java 92 1 0 0
+EditAction 1474458336231 Frame.java 682 6 8 0
