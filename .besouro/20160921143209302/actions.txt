@@ -59,3 +59,5 @@ EditAction 1474458937948 BowlingGame.java 802 4 4 0
 EditAction 1474459008632 BowlingGame.java 805 4 3 0
 EditAction 1474459016213 BowlingGame.java 815 4 3 0
 EditAction 1474459039114 BowlingGame.java 864 4 4 0
+RefactoringAction 1474459068770 BowlingGame.java REMOVE gameScore FIELD
+EditAction 1474459069690 BowlingGame.java 802 4 4 0
