@@ -16,6 +16,10 @@ public class Frame {
 	public int getSecondThrow() {
 		return secondThrow;
 	}
+	
+	public int updateScore(int value) {
+		
+	}
 
 	//returns the score of a single frame
 	public int score(){

@@ -200,3 +200,5 @@ EditAction 1474460882566 BowlingGame.java 961 4 5 0
 EditAction 1474460914756 BowlingGame.java 982 4 5 0
 EditAction 1474460949296 BowlingGame.java 969 4 5 0
 EditAction 1474460973737 BowlingGame.java 1011 4 5 0
+RefactoringAction 1474461013458 Frame.java ADD int updateScore() METHOD
+EditAction 1474461017508 Frame.java 997 7 9 0
