@@ -24,7 +24,6 @@ public class Frame {
 		
 		if(this.isStrike) {
 			score = 10;
-
 		} else {
 			score = this.firstThrow+this.secondThrow;
 		}
