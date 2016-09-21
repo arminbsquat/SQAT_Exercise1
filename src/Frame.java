@@ -18,7 +18,6 @@ public class Frame {
 	//returns the score of a single frame
 	public int score(){
 		int score = this.firstThrow+this.secondThrow;
-		
 		return score;
 	}
 
