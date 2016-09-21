@@ -47,7 +47,7 @@ public class BowlingGame {
 				
 			}
 			
-			if(frames.get(i).isSpare() && i+1 == frames.size()) { // last frame a spare
+			if(frames.get(i).isSpare() && i+1 == frames.size() && frames.size() == 10) { // last frame a spare
 				
 			}
 		}
