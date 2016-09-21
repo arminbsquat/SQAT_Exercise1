@@ -78,6 +78,9 @@ public class BowlingGame {
 			if(frame.isStrike()) {
 				strikeRow++;
 			}
+			else if(strikeRow != 0) {
+				
+			}
 		}
 		
 
