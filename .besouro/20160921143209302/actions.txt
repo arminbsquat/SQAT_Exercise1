@@ -410,3 +410,4 @@ EditAction 1474464756859 TestBowling.java 1843 4 43 3
 RefactoringAction 1474464790368 TestBowling.java ADD void testTwoStrike() METHOD
 EditAction 1474464800228 TestBowling.java 1924 5 43 3
 EditAction 1474464811913 TestBowling.java 2404 5 57 4
+EditAction 1474464821756 TestBowling.java 2410 5 57 4

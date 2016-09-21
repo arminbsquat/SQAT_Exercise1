@@ -70,7 +70,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void testTwoStrike() throws BowlingException {
+	public void testTwoStrikeInARow() throws BowlingException {
 		BowlingGame game = new BowlingGame();
 		Frame[] frame = new Frame[10];
 		frame[0] = new Frame(1,5);
