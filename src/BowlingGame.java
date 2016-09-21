@@ -75,6 +75,13 @@ public class BowlingGame {
 		int strikeRow = 0;
 		
 		for(int i = 0; i < frames.size(); i++) {
+			
+			while(frames.get(i).isStrike()) {
+				
+				
+				i++;
+			}
+			
 			if(frames.get(i).isStrike()) {
 				
 			}
