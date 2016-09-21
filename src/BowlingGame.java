@@ -27,6 +27,6 @@ public class BowlingGame {
 		for(Frame frame : this.frames) {
 			gameScore = gameScore + frame.getFirstThrow() + frame.getSecondThrow();
 		}
-		return 0;
+		return gameScore;
 	}
 }
