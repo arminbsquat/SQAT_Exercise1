@@ -9,10 +9,11 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	
+	
 	public BowlingGame(){}
 	
 	// adds a frame to the game
-	public void addFrame(Frame frame) throws BowlingException
+	public void addFrame(Frame frame) throws BowlingException {
 		if(this.frames.size() > 10) {
 			throw new BowlingException();
 		} else {
