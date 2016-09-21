@@ -28,7 +28,6 @@ public class Frame {
 		} else {
 			return false;
 		}
-		
 	}
 	
 	//return whether a frame is a spare or not
