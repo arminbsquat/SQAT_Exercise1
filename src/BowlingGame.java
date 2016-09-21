@@ -34,28 +34,17 @@ public class BowlingGame {
 		
 		// update game scores; 
 		for(int i = 0; i < frames.size(); i++) {
-			if(frames.get(i).isStrike() && i+1 < frames.size() && frames.size() != 10) {
-				//called while game is not finished
-				
-			}
-			
-			if(frames.get(i).isStrike() && i+1 < frames.size() && frames.size() == 10) {
-				//called after the end of the game
-			}
 			
 			if(frames.get(i).isSpare() && i+1 < frames.size() && frames.size() != 10) {
 				//called while game is not finished
 				// update game score, since next throw is known
+				frames.get(i).updateScore(frames.get(i+1).getFirstThrow());
 			}
 			
 			if(frames.get(i).isSpare() && i+1 < frames.size() && frames.size() == 10) {
 				//called after the end of the game
+				// update game score, since next throw is known
 				frames.get(i).updateScore(frames.get(i+1).getFirstThrow());
-			}
-			
-			if(frames.get(i).isStrike() && i+1 == frames.size() && frames.size() != 10) { // last frame a strike
-				//called while game is not finished
-				//don't update game score, since next frame is unknown
 			}
 			
 			if(frames.get(i).isSpare() && i+1 == frames.size() && frames.size() != 10) { // last frame a spare
