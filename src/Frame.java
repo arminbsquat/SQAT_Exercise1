@@ -3,7 +3,7 @@ public class Frame {
 	private int secondThrow;
 	public static int globalIndex = 0;
 	public int index;
-	public int score = 0;
+	public int score;
 
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
