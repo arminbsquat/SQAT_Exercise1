@@ -7,7 +7,7 @@ public class TestBowling {
 
 	
 	@Test
-	public void testNoStrikesNoSpares() {
+	public void testNoStrikesNoSpares() throws BowlingException {
 		BowlingGame game = new BowlingGame();
 		Frame[] frame = new Frame[10];
 		frame[0] = new Frame(1,5);
@@ -24,6 +24,8 @@ public class TestBowling {
 		for( int i = 0; i < 10; i++) {
 			game.addFrame(frame[i]);
 		}
+		
+		assertEquals(game.score(), );
 	}
 	
 	
