@@ -23,7 +23,6 @@ public class Frame {
 		} else {
 			score = this.firstThrow+this.secondThrow;
 		}
-		
 		return score;
 	}
 
