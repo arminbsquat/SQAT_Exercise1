@@ -6,6 +6,7 @@ public class Application {
 		
 		
 		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(1,5);
 	}
 
 }
