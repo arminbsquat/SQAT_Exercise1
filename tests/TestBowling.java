@@ -49,12 +49,12 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void testOneSpare() throws BowlingException {
+	public void testOneStrike() throws BowlingException {
 		BowlingGame game = new BowlingGame();
 		Frame[] frame = new Frame[10];
 		frame[0] = new Frame(1,5);
 		frame[1] = new Frame(3,6);
-		frame[2] = new Frame(7,3);
+		frame[2] = new Frame(10,0);
 		frame[3] = new Frame(3,6);
 		frame[4] = new Frame(4,4);
 		frame[5] = new Frame(5,3);
@@ -66,7 +66,7 @@ public class TestBowling {
 		for( int i = 0; i < 10; i++) {
 			game.addFrame(frame[i]);
 		}
-		assertEquals(game.score(), 85);
+		assertEquals(game.score(), 91);
 	}
 	
 	@Test

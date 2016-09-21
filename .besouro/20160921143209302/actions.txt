@@ -398,3 +398,9 @@ EditAction 1474464306025 BowlingGame.java 2438 4 5 0
 EditAction 1474464469654 BowlingGame.java 2423 4 5 0
 FileOpenedAction 1474464483616 TestBowling.java 1280 3 29 2
 EditAction 1474464493834 TestBowling.java 1835 4 43 3
+CompilationAction 1474464495893 TestBowling.java
+RefactoringAction 1474464499060 TestBowling.java RENAME testOneSpare()/2=>void testTwoSpare() METHOD
+RefactoringAction 1474464503194 TestBowling.java RENAME testTwoSpare()=>void testOne() METHOD
+RefactoringAction 1474464504738 TestBowling.java RENAME testOne()=>void testOneStrike() METHOD
+CompilationAction 1474464507999 TestBowling.java
+EditAction 1474464536640 TestBowling.java 1837 4 43 3
