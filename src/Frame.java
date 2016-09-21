@@ -27,7 +27,7 @@ public class Frame {
 		if(this.isStrike()) {
 			
 		} else if(this.isSpare()){
-			
+			this.score = this.firstThrow+this.secondThrow;
 		} else {
 			this.score = this.firstThrow+this.secondThrow;
 		}
