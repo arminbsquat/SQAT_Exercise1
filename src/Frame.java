@@ -41,6 +41,5 @@ public class Frame {
 		} else {
 			return false;
 		}
-		return false;
 	}
 }
