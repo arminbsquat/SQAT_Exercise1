@@ -100,3 +100,6 @@ CompilationAction 1474459710808 BowlingGame.java
 CompilationAction 1474459713741 BowlingGame.java
 CompilationAction 1474459713897 BowlingGame.java
 EditAction 1474459748903 Frame.java 907 6 9 0
+CompilationAction 1474459750838 BowlingGame.java
+RefactoringAction 1474459752413 Frame.java RENAME myFrameID=>int myFrame FIELD
+EditAction 1474459753162 Frame.java 911 6 9 0

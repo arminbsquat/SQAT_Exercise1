@@ -2,7 +2,7 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	public static int frameCounter = 0;
-	public int myFrameID;
+	public int myFrameNumber;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
