@@ -32,7 +32,7 @@ public class BowlingGame {
 	public int score(){
 		int gameScore = 0;
 		
-		// update game scores
+		// update game scores; 
 		for(int i = 0; i < frames.size(); i++) {
 			if(frames.get(i).isStrike() && i+1 < frames.size()) {
 				frames.get(i).updateScore(frames.get(i+1).score);
