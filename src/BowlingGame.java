@@ -32,11 +32,6 @@ public class BowlingGame {
 		framesArray = new Frame[this.frames.size()];
 		
 		
-			
-			
-			
-				
-		}
 		
 		
 		
