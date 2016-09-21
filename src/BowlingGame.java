@@ -35,11 +35,11 @@ public class BowlingGame {
 		// update game scores; 
 		for(int i = 0; i < frames.size(); i++) {
 			if(frames.get(i).isStrike() && i+1 < frames.size() && frames.size() != 10) {
-				
+				//called while game is not finished
 			}
 			
 			if(frames.get(i).isStrike() && i+1 < frames.size() && frames.size() == 10) {
-				
+				//called after the end of the game
 			}
 			
 			if(frames.get(i).isSpare() && i+1 < frames.size() && frames.size() != 10) {
