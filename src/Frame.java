@@ -26,9 +26,9 @@ public class Frame {
 		if(this.getFirstThrow() == 10) {
 			return true;
 		} else {
-			
+			return false;
 		}
-		return false;
+		
 	}
 	
 	//return whether a frame is a spare or not
