@@ -37,7 +37,7 @@ public class BowlingGame {
 				frames.get(i).updateScore(frames.get(i+1).score);
 			}
 			if(frames.get(i).isSpare()) {
-				
+				frames.get(i).updateScore(frames.get(i+1).getFirstThrow());
 			}
 		}
 		
