@@ -31,6 +31,7 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		int gameScore = 0;
+		this.handleStrikes();
 		
 		// update game scores; 
 		for(int i = 0; i < frames.size(); i++) {
