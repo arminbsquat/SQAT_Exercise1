@@ -74,7 +74,9 @@ public class BowlingGame {
 	public void handleStrikes() {
 		
 		for(Frame frame : frames) {
-			
+			if(frame.isStrike()) {
+				
+			}
 		}
 		
 	}
