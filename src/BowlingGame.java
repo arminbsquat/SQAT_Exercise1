@@ -19,7 +19,6 @@ public class BowlingGame {
 			frame.myFrameNumber = Frame.frameCounter;
 			this.frames.add(frame);
 			Frame.frameCounter++;
-			
 		}
 	}
 	
