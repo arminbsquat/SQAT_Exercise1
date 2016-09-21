@@ -27,6 +27,7 @@ public class TestBowling {
 		assertEquals(game.score(), 81);
 	}
 	
+	@Test
 	public void testOneSpare() throws BowlingException {
 		BowlingGame game = new BowlingGame();
 		Frame[] frame = new Frame[10];
