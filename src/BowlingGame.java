@@ -39,7 +39,7 @@ public class BowlingGame {
 			// strike 
 			if(frames.get(i).isStrike() && i+2 < frames.size() && frames.size() != 10) {
 				frames.get(i).updateScore(frames.get(i+1).getFirstThrow());
-				if(frames.get(i+1).isStrike()) {
+				if(frames.get(i+1).isStrike()) { // two strikes in a row
 					frames.get(i).updateScore(frames.get(i+2).getFirstThrow());
 				} else {
 					frames.get(i).updateScore(frames.get(i+1).getSecondThrow());
