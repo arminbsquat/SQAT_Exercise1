@@ -30,7 +30,7 @@ public class BowlingGame {
 	public int score(){
 		
 		for(Frame frame : this.frames) {
-				gameScore = gameScore + frame.score();	
+				this.gameScore = this.gameScore + frame.score();	
 		}
 		return gameScore;
 	}
