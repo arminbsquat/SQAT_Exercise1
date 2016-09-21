@@ -34,13 +34,13 @@ public class BowlingGame {
 			if(frame.isStrike()) {
 				
 			} else {
-				
+				gameScore = gameScore + frame.score();	
 			}
 			
 			
 			
 			
-				gameScore = gameScore + frame.score();	
+				
 		}
 		
 		
