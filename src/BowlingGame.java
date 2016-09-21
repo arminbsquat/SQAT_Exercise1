@@ -34,7 +34,7 @@ public class BowlingGame {
 		
 		// letzter wurf ein strike oder spare noch abarbeiten
 		for(int i = 0; i < frames.size(); i++) {
-			if(frames.get(i).isStrike()) {
+			if(frames.get(i).isStrike() && i+1 < frames.size()) {
 				frames.get(i).updateScore(frames.get(i+1).score);
 			}
 			if(frames.get(i).isSpare()) {
