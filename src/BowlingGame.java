@@ -78,6 +78,7 @@ public class BowlingGame {
 		
 			while(frames.get(i).isStrike()) {
 				score = score + 10;
+				score = frames.get(i).isStrike();
 				if(i >= frames.size()) {
 					// reset
 				}
