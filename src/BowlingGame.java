@@ -80,7 +80,7 @@ public class BowlingGame {
 				score = score + 10;
 				i++;
 				if(i >= frames.size()) {
-					// reset, score cannot be calcualted yet, while future values are missing
+					// reset, score cannot be calcualted yet, because future values are missing
 					score = 0;
 				} else {
 					score = frames.get(i).score;
