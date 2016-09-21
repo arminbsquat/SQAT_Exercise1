@@ -19,7 +19,7 @@ public class Application {
 		frame[9] = new Frame(2,6);
 		
 		for( int i = 0; i < 10; i++) {
-			
+			game.addFrame(frame[i]);
 		}
 		
 		
