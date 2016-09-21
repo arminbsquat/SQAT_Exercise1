@@ -29,9 +29,20 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		int gameScore = 0;
-		framesArray = new Frame[this.frames.size()];
-		
-		
+		for(Frame frame : this.frames) {
+			
+			if(frame.isStrike()) {
+				gameScore = gameScore + 10;
+			} else {
+				
+				gameScore = gameScore + frame.score();	
+			}
+			
+			
+			
+			
+				
+		}
 		
 		
 		
