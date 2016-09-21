@@ -79,7 +79,7 @@ public class BowlingGame {
 			while(frames.get(i).isStrike()) {
 				
 				if(i >= frames.size()) {
-					
+					// reset
 				}
 				
 				i++;
