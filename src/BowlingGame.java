@@ -19,7 +19,7 @@ public class BowlingGame {
 		} else {
 			frame.index = Frame.globalIndex;
 			this.frames.add(frame);
-			Frame.globalIndex
+			Frame.globalIndex++;
 		}
 	}
 	

@@ -193,3 +193,4 @@ EditAction 1474460694954 Frame.java 891 6 9 0
 RefactoringAction 1474460723409 Frame.java ADD int globalIndex FIELD
 EditAction 1474460730694 Frame.java 948 6 9 0
 EditAction 1474460751754 BowlingGame.java 899 4 3 0
+EditAction 1474460755201 BowlingGame.java 902 4 4 0
