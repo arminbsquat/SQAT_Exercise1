@@ -17,7 +17,9 @@ public class BowlingGame {
 		if(this.frames.size() > 10) {
 			throw new BowlingException();
 		} else {
+			frame.index = Frame.globalIndex;
 			this.frames.add(frame);
+			Frame.globalIndex
 		}
 	}
 	
