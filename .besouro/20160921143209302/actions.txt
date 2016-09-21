@@ -16,3 +16,10 @@ CompilationAction 1474458106254 BowlingGame.java
 CompilationAction 1474458119405 BowlingGame.java
 EditAction 1474458122041 BowlingGame.java 833 4 4 0
 EditAction 1474458143133 BowlingGame.java 800 4 4 0
+FileOpenedAction 1474458215923 BowlingException.java 58 0 0 0
+RefactoringAction 1474458275703 Game.java ADD Game.java CLASS
+FileOpenedAction 1474458275843 Game.java 117 1 0 0
+RefactoringAction 1474458290351 Game.java REMOVE Game.java CLASS
+RefactoringAction 1474458303533 Application.java ADD Application.java CLASS
+FileOpenedAction 1474458303673 Application.java 35 0 0 0
+EditAction 1474458312565 Application.java 92 1 0 0
