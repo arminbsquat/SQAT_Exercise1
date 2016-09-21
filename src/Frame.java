@@ -2,6 +2,7 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	boolean isStrike;
+	int myScore;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
