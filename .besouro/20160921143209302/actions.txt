@@ -319,3 +319,5 @@ RefactoringAction 1474463375538 TestBowling.java RENAME testRegualr=>void testRe
 RefactoringAction 1474463379038 TestBowling.java RENAME testRegu=>void testNoStrikesNo FIELD
 RefactoringAction 1474463381048 TestBowling.java RENAME testNoStrikesNo=>void testNoStrikesNoSpares() METHOD
 EditAction 1474463383418 TestBowling.java 219 2 1 0
+RefactoringAction 1474463390558 TestBowling.java REMOVE test() METHOD
+EditAction 1474463392018 TestBowling.java 232 2 1 0

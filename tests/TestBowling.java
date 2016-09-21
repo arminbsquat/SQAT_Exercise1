@@ -4,14 +4,17 @@ import org.junit.Test;
 
 public class TestBowling {
 
+
+	
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testNoStrikesNoSpares() {
+		
 	}
 	
 	
-	public void testNoStrikesNoSpares() {
-		
+	@Test
+	public void test() {
+		fail("Not yet implemented");
 	}
 
 }
