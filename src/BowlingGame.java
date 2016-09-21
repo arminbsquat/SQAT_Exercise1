@@ -74,6 +74,10 @@ public class BowlingGame {
 	public void handleStrikes() {
 		int strikeRow = 0;
 		
+		for(Frame frame : frames) {
+			
+		}
+		
 
 		
 	}
