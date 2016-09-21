@@ -36,6 +36,9 @@ public class BowlingGame {
 			if(frames.get(i).isStrike()) {
 				frames.get(i).updateScore(frames.get(i+1).score);
 			}
+			if(frames.get(i).isSpare()) {
+				
+			}
 		}
 		
 		for(Frame frame : this.frames) {
