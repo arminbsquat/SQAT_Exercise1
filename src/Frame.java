@@ -1,6 +1,8 @@
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	public static int globalIndex = 0;
+	public int index;
 
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
