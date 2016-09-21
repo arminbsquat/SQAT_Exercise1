@@ -76,7 +76,7 @@ public class BowlingGame {
 		int i = 0; 
 		
 		
-			
+		for(Frame frame : frames) {
 			while(frames.get(i).isStrike()) {
 				score = score + 10;
 				i++;
@@ -87,6 +87,8 @@ public class BowlingGame {
 					score = frames.get(i).score;
 				}
 			}
+		}
+
 			
 			return score;
 			
