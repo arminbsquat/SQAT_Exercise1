@@ -134,3 +134,4 @@ RefactoringAction 1474460062069 Frame.java REMOVE globalFrameNumber FIELD
 RefactoringAction 1474460066081 Frame.java REMOVE frameNumber FIELD
 EditAction 1474460078147 Frame.java 866 6 9 0
 EditAction 1474460089026 Frame.java 890 6 9 0
+EditAction 1474460096940 Frame.java 915 6 9 0

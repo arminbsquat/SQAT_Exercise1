@@ -31,7 +31,7 @@ public class Frame {
 			this.isStrike = true;
 			return true;
 		} else {
-
+			this.isStrike = false;
 			return false;
 		}
 	}
