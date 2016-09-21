@@ -32,6 +32,7 @@ public class BowlingGame {
 	public int score(){
 		int gameScore = 0;
 		
+		// letzter wurf ein strike oder spare noch abarbeiten
 		for(int i = 0; i < frames.size(); i++) {
 			if(frames.get(i).isStrike()) {
 				frames.get(i).updateScore(frames.get(i+1).score);
