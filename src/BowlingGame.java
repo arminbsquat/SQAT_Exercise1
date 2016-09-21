@@ -13,6 +13,7 @@ public class BowlingGame {
 	
 	// adds a frame to the game
 	public void addFrame(Frame frame) throws BowlingException{
+		Frame.frameCounter++;
 		if(this.frames.size() > 10) {
 			throw new BowlingException();
 		} else {
@@ -31,7 +32,7 @@ public class BowlingGame {
 		for(Frame frame : this.frames) {
 			
 			if(frame.isStrike()) {
-				Frame.frameCounter++;
+				
 			}
 			
 				gameScore = gameScore + frame.score();	
