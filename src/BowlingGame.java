@@ -37,7 +37,7 @@ public class BowlingGame {
 		}
 		
 		for(Frame frame : this.frames) {
-			
+			if(frame.isStrike());
 		}
 		
 		return gameScore;
