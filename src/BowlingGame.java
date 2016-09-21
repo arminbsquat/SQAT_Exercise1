@@ -49,15 +49,18 @@ public class BowlingGame {
 			
 			if(frames.get(i).isSpare() && i+1 == frames.size() && frames.size() != 10) { // last frame a spare
 				//called while game is not finished
-				//don't update game score, since next frame is unknown
+				//don't update game score, since next frame is unknown and not last game
 			}
 			
-			if(frames.get(i).isStrike() && i+1 == frames.size() && frames.size() == 10) { // last frame a strike
+			if(frames.get(i).isStrike() && i+1 == frames.size() && frames.size() == 10) { 
 				//called after the end of the game
+				// last frame a strike
+
 			}
 			
-			if(frames.get(i).isSpare() && i+1 == frames.size() && frames.size() == 10) { // last frame a spare
+			if(frames.get(i).isSpare() && i+1 == frames.size() && frames.size() == 10) { 
 				//called after the end of the game
+				// last frame a spare
 			}
 		}
 		
