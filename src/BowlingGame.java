@@ -72,7 +72,7 @@ public class BowlingGame {
 	}
 	
 	public void handleStrikes() {
-		
+		int strikeRow = 0;
 		
 
 		
