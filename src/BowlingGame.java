@@ -12,12 +12,12 @@ public class BowlingGame {
 	public BowlingGame(){}
 	
 	// adds a frame to the game
-	public void addFrame(Frame frame) throws BowlingException{
-		Frame.frameCounter++;
+	public void addFrame(Frame frame) throws BowlingException
 		if(this.frames.size() > 10) {
 			throw new BowlingException();
 		} else {
 			this.frames.add(frame);
+			Frame.frameCounter++;
 		}
 	}
 	
