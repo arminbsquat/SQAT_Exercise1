@@ -75,14 +75,10 @@ public class BowlingGame {
 		int strikeRow = 0;
 		
 		for(int i = 0; i < frames.size(); i++) {
-			if(frame.isStrike()) {
-				strikeRow++;
-			}
-			else if(strikeRow != 0) {
-				
-			} else {
+			if(frames.get(i).isStrike()) {
 				
 			}
+			
 		}
 		
 
