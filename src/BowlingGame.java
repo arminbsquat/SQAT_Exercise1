@@ -38,7 +38,7 @@ public class BowlingGame {
 		
 		for(int i = 0; i < frames.size(); i++) {
 			if(frames.get(i).isStrike()) {
-				
+				frames.get(i).
 			}
 		}
 		

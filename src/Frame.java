@@ -18,8 +18,8 @@ public class Frame {
 		return secondThrow;
 	}
 	
-	public int updateScore(int value) {
-		
+	public void updateScore(int value) {
+		this.score = this.score+value;
 	}
 
 	//returns the score of a single frame
