@@ -344,3 +344,7 @@ EditAction 1474463669687 Frame.java 1110 7 9 0
 UnitTestCaseAction 1474463677506 TestBowling.java FAIL
 UnitTestSessionAction 1474463677506 TestBowling.java FAIL
 EditAction 1474463683185 TestBowling.java 734 2 15 1
+UnitTestCaseAction 1474463686607 TestBowling.java FAIL
+UnitTestSessionAction 1474463686607 TestBowling.java FAIL
+RefactoringAction 1474463705171 TestBowling.java ADD void testOneSpare() METHOD
+EditAction 1474463718790 TestBowling.java 1248 3 29 2
