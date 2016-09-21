@@ -76,6 +76,7 @@ public class BowlingGame {
 		int i = 0; 
 		
 		
+			
 			while(frames.get(i).isStrike()) {
 				score = score + 10;
 				i++;
