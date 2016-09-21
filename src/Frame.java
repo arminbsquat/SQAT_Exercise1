@@ -38,6 +38,8 @@ public class Frame {
 	public boolean isSpare(){
 		if(this.getFirstThrow()+this.getSecondThrow() == 10) {
 			return true;
+		} else {
+			return false;
 		}
 		return false;
 	}
