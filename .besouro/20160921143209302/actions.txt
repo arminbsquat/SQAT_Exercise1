@@ -113,3 +113,6 @@ EditAction 1474459807716 Frame.java 911 6 9 0
 EditAction 1474459811194 Frame.java 912 6 9 0
 EditAction 1474459832223 BowlingGame.java 886 4 4 0
 EditAction 1474459841755 BowlingGame.java 891 4 4 0
+RefactoringAction 1474459882690 Frame.java REMOVE strike FIELD
+RefactoringAction 1474459890927 Frame.java ADD int frame FIELD
+EditAction 1474459893548 Frame.java 920 6 9 0
