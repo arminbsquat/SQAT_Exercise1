@@ -177,3 +177,7 @@ CompilationAction 1474460573789 Frame.java
 RefactoringAction 1474460583897 Frame.java REMOVE myScore FIELD
 RefactoringAction 1474460583897 Frame.java REMOVE isStrike FIELD
 EditAction 1474460585192 Frame.java 986 6 10 0
+CompilationAction 1474460587158 Frame.java
+CompilationAction 1474460587173 Frame.java
+CompilationAction 1474460596908 Frame.java
+EditAction 1474460607126 Frame.java 833 6 9 0

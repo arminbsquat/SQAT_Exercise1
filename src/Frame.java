@@ -18,25 +18,15 @@ public class Frame {
 	//returns the score of a single frame
 	public int score(){
 		int score = 0;
-
-		
-		if(this.isStrike()) {
-			score = 10;
-		} else {
 			score = this.firstThrow+this.secondThrow;
-		}
-		
-		this.myScore = score;
-		return this.myScore;
+		return score;
 	}
 
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
 		if(this.getFirstThrow() == 10) {
-			this.isStrike = true;
 			return true;
 		} else {
-			this.isStrike = false;
 			return false;
 		}
 	}
