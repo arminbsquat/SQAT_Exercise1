@@ -372,3 +372,12 @@ CompilationAction 1474464028564 BowlingGame.java
 CompilationAction 1474464037164 BowlingGame.java
 CompilationAction 1474464037324 BowlingGame.java
 EditAction 1474464040764 BowlingGame.java 2478 5 6 0
+CompilationAction 1474464042674 BowlingGame.java
+CompilationAction 1474464055564 BowlingGame.java
+CompilationAction 1474464055724 BowlingGame.java
+CompilationAction 1474464065144 BowlingGame.java
+CompilationAction 1474464065304 BowlingGame.java
+RefactoringAction 1474464078404 BowlingGame.java REMOVE handleStrikes() METHOD
+RefactoringAction 1474464080404 BowlingGame.java ADD int handleStrikes() METHOD
+CompilationAction 1474464087246 BowlingGame.java
+EditAction 1474464092426 BowlingGame.java 2480 5 6 0
