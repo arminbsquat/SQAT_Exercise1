@@ -2,7 +2,6 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 
-	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
@@ -21,7 +20,7 @@ public class Frame {
 		int score = 0;
 
 		
-		if(this.isStrike) {
+		if(this.isStrike()) {
 			score = 10;
 		} else {
 			score = this.firstThrow+this.secondThrow;

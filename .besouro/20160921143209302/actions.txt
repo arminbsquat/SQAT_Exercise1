@@ -168,3 +168,12 @@ CompilationAction 1474460554070 Frame.java
 CompilationAction 1474460557471 Frame.java
 CompilationAction 1474460557471 Frame.java
 EditAction 1474460569483 Frame.java 987 6 10 0
+CompilationAction 1474460571230 Frame.java
+CompilationAction 1474460571246 Frame.java
+RefactoringAction 1474460573087 Frame.java ADD boolean isStrike FIELD
+RefactoringAction 1474460573087 Frame.java ADD int myScore FIELD
+CompilationAction 1474460573789 Frame.java
+CompilationAction 1474460573789 Frame.java
+RefactoringAction 1474460583897 Frame.java REMOVE myScore FIELD
+RefactoringAction 1474460583897 Frame.java REMOVE isStrike FIELD
+EditAction 1474460585192 Frame.java 986 6 10 0
