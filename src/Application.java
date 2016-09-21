@@ -18,6 +18,9 @@ public class Application {
 		frame[8] = new Frame(8,1);
 		frame[9] = new Frame(2,6);
 		
+		
+		
+		
 	}
 
 }
