@@ -6,8 +6,8 @@ public class Application {
 		
 		
 		BowlingGame game = new BowlingGame();
-		Frame[] frame = new Frame[2];
-		frame = {new Frame(0,0), new Frame(1,0)}
+		Frame[] frame = new Frame[10];
+		frame[0] = new Frame(1,5);
 	}
 
 }
