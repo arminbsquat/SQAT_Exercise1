@@ -29,6 +29,9 @@ public class BowlingGame {
 	public int score(){
 		int gameScore = 0;
 		for(Frame frame : this.frames) {
+			if(frame.isStrike()) {
+				
+			}
 			gameScore = gameScore + frame.score();
 		}
 		return gameScore;
