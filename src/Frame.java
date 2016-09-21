@@ -19,7 +19,7 @@ public class Frame {
 	public int score(){
 		int score = 0;
 		if(this.isStrike()) {
-			score = 10 ;
+			score = 10;
 		} else {
 			score = this.firstThrow+this.secondThrow;
 		}
