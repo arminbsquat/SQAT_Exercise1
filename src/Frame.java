@@ -29,6 +29,7 @@ public class Frame {
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
 		if(this.getFirstThrow() == 10) {
+			this.strike = true;
 			return true;
 		} else {
 			return false;
