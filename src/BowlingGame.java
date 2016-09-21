@@ -29,7 +29,7 @@ public class BowlingGame {
 	public int score(){
 		int gameScore = 0;
 		for(Frame frame : this.frames) {
-			gameScore = gameScore + frame.getFirstThrow() + frame.getSecondThrow();
+			gameScore = gameScore + frame.score();
 		}
 		return gameScore;
 	}
