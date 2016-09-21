@@ -396,3 +396,5 @@ FileOpenedAction 1474464259443 BowlingException.java 58 0 0 0
 EditAction 1474464274747 BowlingGame.java 2448 4 5 0
 EditAction 1474464306025 BowlingGame.java 2438 4 5 0
 EditAction 1474464469654 BowlingGame.java 2423 4 5 0
+FileOpenedAction 1474464483616 TestBowling.java 1280 3 29 2
+EditAction 1474464493834 TestBowling.java 1835 4 43 3
