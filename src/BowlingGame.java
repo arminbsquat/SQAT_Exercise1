@@ -71,7 +71,7 @@ public class BowlingGame {
 		return gameScore;
 	}
 	
-	public void handleStrikes() {
+	public int handleStrikes() {
 		int score = 0; 
 		int i = 0; 
 		
@@ -86,6 +86,8 @@ public class BowlingGame {
 					score = frames.get(i).score;
 				}
 			}
+			
+			return score;
 			
 		
 		
