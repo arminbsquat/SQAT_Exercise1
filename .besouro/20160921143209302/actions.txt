@@ -86,3 +86,5 @@ RefactoringAction 1474459607240 Frame.java RENAME myFrame=>int myFrameC FIELD
 RefactoringAction 1474459609814 Frame.java RENAME myFrameC=>int myFrameNumber FIELD
 EditAction 1474459610890 Frame.java 911 6 9 0
 EditAction 1474459626584 BowlingGame.java 897 4 4 0
+CompilationAction 1474459628081 BowlingGame.java
+EditAction 1474459645912 BowlingGame.java 948 4 4 0
