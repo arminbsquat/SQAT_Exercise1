@@ -129,3 +129,7 @@ EditAction 1474460043188 Frame.java 848 6 9 0
 RefactoringAction 1474460051525 Frame.java ADD int frameNumber FIELD
 RefactoringAction 1474460051528 Frame.java ADD int globalFrameNumber FIELD
 EditAction 1474460052138 Frame.java 963 6 9 0
+CompilationAction 1474460053804 Frame.java
+RefactoringAction 1474460062069 Frame.java REMOVE globalFrameNumber FIELD
+RefactoringAction 1474460066081 Frame.java REMOVE frameNumber FIELD
+EditAction 1474460078147 Frame.java 866 6 9 0
