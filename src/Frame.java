@@ -27,9 +27,9 @@ public class Frame {
 		if(this.isStrike()) {
 			this.score = 10;
 		} else {
-			score = this.firstThrow+this.secondThrow;
+			this.score = this.firstThrow+this.secondThrow;
 		}
-		return score;
+		return this.score;
 	}
 
 	//returns whether the frame is a strike or not
