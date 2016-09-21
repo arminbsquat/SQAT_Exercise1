@@ -78,10 +78,5 @@ public class BowlingGame {
 		}
 		
 		return gameScore;
-	}
-	
-		
-	
-	
-	
+	}	
 }
