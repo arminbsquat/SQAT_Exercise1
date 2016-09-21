@@ -32,6 +32,7 @@ public class Frame {
 			this.strike = true;
 			return true;
 		} else {
+			this.strike = true;
 			return false;
 		}
 	}
