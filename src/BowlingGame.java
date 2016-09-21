@@ -36,8 +36,8 @@ public class BowlingGame {
 			gameScore = gameScore + frame.score();
 		}
 		
-		for(Frame frame : this.frames) {
-			if(frame.isStrike());
+		for(int i = 0; i < frames.size(); i++) {
+			
 		}
 		
 		return gameScore;
